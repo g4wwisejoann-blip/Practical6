@@ -1,0 +1,99 @@
+h1{
+    font-size: 40px;
+    font-family: "playfair display",serif;
+    border: 2px solid white;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align:center;
+}
+.home2{
+    background-color: transparent;
+    border: none;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+body.home {
+    background-image: url("images/nails.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body{
+
+    background-color: #ffb4cd;
+    font-family:"Poppins" sans-serif ;
+    text-align: center;
+    text-color:#333333
+}
+.nav-link{
+    background-color:rgb(253, 148, 209);
+    padding: 30px;
+    text-align:center;
+    
+}
+.nav-link{
+    display:inline-block;
+    background-color:rgb(253, 148, 209);
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+
+.nav-link:hover{
+color:#d4af37;
+}
+.logo{
+position: absolute;
+bottom: 20px;
+right: 20px;
+    width:100px;
+    opacity: 0.9;
+    height: 100px;
+     margin-right: 20px;
+
+}
+.image-text {
+   display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image-text img{
+    width:200px ;
+    border-radius: 10px;
+}
+.text{
+    max-width: 400px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.reverse{
+     flex-direction: row-reverse;
+}
+.text2{
+    max-width: 300px;
+    align-items: right;
+}
+.text-image img{
+    width:200px ;
+    height: 200px;
+    border-radius: 10px;
+}
+.contact{
+    text-align: center;
+}
+.book-btn{
+margin-left: 20px;
+padding: 12px 30px;
+font-size: 16px;
+display: inline-block;
+background-color: rgb(253, 148, 209);
+color: rgb(0, 0, 0);
+border-radius: 10px;
+    }
